@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22685185185185186" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.194" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.194" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.194" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_category_background.xml" value="0.21354166666666666" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_category_foreground.xml" value="0.21354166666666666" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_contact_background.xml" value="0.21354166666666666" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_contact_foreground.xml" value="0.21354166666666666" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_home_background.xml" value="0.21354166666666666" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_home_foreground.xml" value="0.21354166666666666" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22685185185185186" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/activity_category.xml" value="0.18885869565217392" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/activity_category_list.xml" value="0.18885869565217392" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/activity_contact.xml" value="0.2" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/activity_contact_list.xml" value="0.18885869565217392" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/activity_note.xml" value="0.152" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/activity_note_list.xml" value="0.18885869565217392" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/content_contact.xml" value="0.18885869565217392" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/dialog_date.xml" value="0.11510416666666666" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/fragment_blank.xml" value="0.19895833333333332" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/fragment_category.xml" value="0.136" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/fragment_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/fragment_first.xml" value="0.18885869565217392" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/fragment_home.xml" value="0.144" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/fragment_note.xml" value="0.19895833333333332" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/fragment_second.xml" value="0.18885869565217392" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/item_note.xml" value="0.19895833333333332" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/item_title.xml" value="0.1" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/item_title_delete.xml" value="0.16" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/item_title_edit.xml" value="0.1" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/item_title_edit_delete.xml" value="0.18885869565217392" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/layout/item_title_subtitle_delete.xml" value="0.18885869565217392" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/William Chrisandy, S.Kom/Semester 5/MKTG6063001 - Market Research Methodologies/Project/REmind asSIstant (RESI)/app/src/main/res/mipmap-anydpi-v26/ic_category.xml" value="0.21354166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

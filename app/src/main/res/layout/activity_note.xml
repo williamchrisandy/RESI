@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_view_title"
+                style="@style/CustomTextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/title" />
+
+            <EditText
+                android:id="@+id/edit_text_title"
+                style="@style/CustomEditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_title"
+                android:autofillHints="@string/title"
+                android:hint="@string/title"
+                android:inputType="textShortMessage"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/text_view_subtitle"
+                style="@style/CustomTextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_text_title"
+                android:text="@string/date" />
+
+            <TextView
+                android:id="@+id/text_view_note_date"
+                style="@style/CustomTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_subtitle"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/button_calendar"
+                android:text="@string/yyyy_mm_dd" />
+
+            <Button
+                android:id="@+id/button_calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_subtitle"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="14dp"
+                android:paddingStart="18dp"
+                android:textColor="@color/white"
+                android:drawableEnd="@drawable/ic_baseline_calendar_today_24"
+                android:onClick="openCalendar"
+                android:text="@string/calendar" />
+
+            <TextView
+                android:id="@+id/text_view_location"
+                style="@style/CustomTextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_note_date"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/button_calendar"
+                android:text="@string/category" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_location" />
+
+            <Button
+                android:id="@+id/button_add_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recycler_view_category"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp"
+                android:paddingEnd="20dp"
+                android:drawableLeft="@drawable/ic_baseline_category_24"
+                android:drawableTint="@color/white"
+                android:textColor="@color/white"
+                android:onClick="addCategory"
+                android:text="@string/add_category" />
+
+            <TextView
+                android:id="@+id/text_view_contact"
+                style="@style/CustomTextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_add_category"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/button_calendar"
+                android:text="@string/contact" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_contact" />
+
+            <Button
+                android:id="@+id/button_add_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recycler_view_contact"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp"
+                android:paddingEnd="20dp"
+                android:drawableLeft="@drawable/ic_baseline_contacts_24"
+                android:drawableTint="@color/white"
+                android:textColor="@color/white"
+                android:onClick="addContact"
+                android:text="@string/add_contact" />
+
+            <TextView
+                android:id="@+id/text_view_description"
+                style="@style/CustomTextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_add_contact"
+                android:text="@string/description" />
+
+            <EditText
+                android:id="@+id/edit_text_description"
+                style="@style/CustomEditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_description"
+                android:autofillHints="@string/description"
+                android:hint="@string/description"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/button_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_text_description"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:onClick="updateNote"
+                android:text="@string/save" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

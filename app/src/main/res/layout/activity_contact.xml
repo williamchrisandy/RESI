@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:id="@+id/text_view_name"
+        style="@style/CustomTextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/name" />
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        style="@style/CustomEditView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_name"
+        android:autofillHints="@string/name"
+        android:hint="@string/name"
+        android:inputType="textShortMessage"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/text_view_line"
+        style="@style/CustomTextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_name"
+        android:text="@string/line" />
+
+    <EditText
+        android:id="@+id/edit_text_line"
+        style="@style/CustomEditView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_line"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/button_chat_line"
+        android:autofillHints="@string/line_id"
+        android:hint="@string/line_id"
+        android:inputType="textShortMessage"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_chat_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_line"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:textColor="@color/white"
+        android:onClick="openLine"
+        android:text="@string/chat" />
+
+    <TextView
+        android:id="@+id/text_view_whatsapp"
+        style="@style/CustomTextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_line"
+        android:text="@string/whatsapp" />
+
+    <EditText
+        android:id="@+id/edit_text_whatsapp"
+        style="@style/CustomEditView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_whatsapp"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/button_chat_whatsapp"
+        android:autofillHints="@string/name"
+        android:hint="@string/_6281234567890"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_chat_whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_whatsapp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:textColor="@color/white"
+        android:onClick="openWhatsApp"
+        android:text="@string/chat" />
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_whatsapp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:onClick="saveContact"
+        android:text="@string/save" />
+
+</RelativeLayout>
